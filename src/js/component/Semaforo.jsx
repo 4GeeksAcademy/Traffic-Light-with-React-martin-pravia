@@ -8,6 +8,10 @@ const Semaforo = () => {
     setLightColor(color[colorRandom]);
   };
 
+  const agregarPurpura = () => {
+    if (!color.includes("purple")) setColor([...color, "purple"]);
+  };
+
   return (
     <>
       <div className="granDiv">
@@ -29,15 +33,26 @@ const Semaforo = () => {
               "greenDark " + (lightColor === "green" ? "greenLight" : "")
             }
           ></div>
+
+          {color.includes("purple") && (
+            <div
+              onClick={() => setLightColor("purple")}
+              className=
+              {"purpleDark " + (lightColor === "purple" ? "purpleLight" : "")}
+            ></div>
+          )}
         </div>
       </div>
       <div className="buttonOn">
-        <button
-         
-          onClick={cambioDeColor}
-          className=" btn btn-secondary"
-        >
+        <button onClick={cambioDeColor} className=" btn btn-secondary">
           Cambiar random color
+        </button>
+
+        <button
+          onClick={agregarPurpura}
+          className="buttonPurp btn btn-secondary"
+        >
+          Agregar Purpura
         </button>
       </div>
     </>

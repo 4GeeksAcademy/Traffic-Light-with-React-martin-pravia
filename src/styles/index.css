@@ -97,5 +97,35 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   margin-top: 20px;
+}
+
+.buttonPurp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.purpleDark {
+  background-color: rgb(80, 6, 80);
+  width: 70%;
+  height: 33%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 0;
+}
+
+.purpleLight {
+  background-color: rgb(250, 127, 250);
+  width: 70%;
+  height: 33%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px 0;
 }
