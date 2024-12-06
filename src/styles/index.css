@@ -1,12 +1,101 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-/* 
+.granDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.stick {
+  height: 100px;
+  width: 40px;
+  background-color: black;
+  display: block;
+}
 
-*/
+.container {
+  display: flex;
+  height: 480px;
+  width: 220px;
+  background-color: black;
+  border-radius: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+.redDark {
+  background-color: rgb(160, 6, 6);
+  width: 70%;
+  height: 33%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.yellowDark {
+  background-color: rgb(247, 247, 66);
+  width: 70%;
+  height: 33%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.greenDark {
+  background-color: rgb(38, 117, 1);
+  width: 70%;
+  height: 33%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+.redLight {
+  background-color: rgb(247, 82, 82);
+  width: 70%;
+  height: 33%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+
+.yellowLight {
+  background-color: rgb(250, 238, 182);
+  width: 70%;
+  height: 33%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.greenLight {
+  background-color: rgb(183, 245, 155);
+  width: 70%;
+  height: 33%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.buttonOn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
